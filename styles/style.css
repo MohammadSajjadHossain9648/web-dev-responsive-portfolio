@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Miama';
+    src: url('fonts/Miama.ttf') format('truetype');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_class{
+    color: white;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+/* common style */
+:root{
+    --primary-color: white;
+    --secondary-color: rgb(230, 83, 60);
+    --shade-color:  rgba(255, 255, 255, 0.5);
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+section{
+    margin: 80px 140px;
+}
+.title{
+    font-size: 48px;
+}
+.description{
+    color: var(--shade-color);
+    padding: 20px 0;
+}
+.btn{
+    width: 180px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 35px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* banner part */
+.banner{
+    background-image: linear-gradient(to bottom, #121212 10%, #232323 45%, #1B1B1B 65%, #000000 89%);
+    /* background-image: linear-gradient(to bottom, #121212, #232323, #000000); */
+}
+.banner .banner_header{
+    padding: 40px 140px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .banner_title{
+    color: var(--secondary-color);
+}
+.banner .banner_header .banner_menubar{
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 2px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner_header .banner_menubar li{
+    border-radius: 35px;
+    padding: 5px 15px;
+}
+.banner .banner_header .banner_menubar li:hover{
+    background-color: var(--secondary-color);
+}
+
+
+.banner .banner_container_items{
+    padding: 30px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner_container_items .banner_container1{
+    margin: 50px 0;
+    width: 45%;
+}
+.banner .banner_container_items .banner_container1 .banner_container_title{
+    font-size: 70px;
+    line-height: 105%;
+}
+.banner .banner_container_items .banner_container1 .banner_container_title #text_shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: normal;
+    font-size: 135px;
+}
+.banner .banner_container_items .banner_container1 .banner_btn1{
+    background-color: var(--secondary-color);
+    margin-right: 10px;
+}
+.banner .banner_container_items .banner_container1 .banner_btn2{
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+.banner .banner_container_items .banner_container2{
+    width: 32%;
+}
+.banner .banner_container_items .banner_container2 img{
+    height: 520px;
+}
+.banner .banner_container_items .banner_container2 .content_over_img{
+    width: 140px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.banner .banner_container_items .banner_container2 .img_bottom_content .circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+.banner .banner_container_items .banner_container2 .img_bottom_content .circle .fa{
+    color: var(--primary-color);
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+.banner .banner_container_items .banner_container2 .img_top_content{
+    position: absolute;
+    top: 220px;
+    right: 95px;
+}
+.banner .banner_container_items .banner_container2 .img_top_content p{
+    font-size: 13px;
+}
+.banner .banner_container_items .banner_container2 .img_bottom_content{
+    position: absolute;
+    top: 490px;
+    right: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* habits part */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+/* advertisement part */
+
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+/* training part */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* calculator part */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+/* team part */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+/* footer part */
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    /* design for mobile */
+    /* common style */
+
+    /* banner part */
+
+
+    /* habits part */
+
+
+    /* training part */
+
+
+    /* advertisement part */
+
+
+    /* calculator part */
+
+
+    /* team part */
+
+
+    /* footer part */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    /* design for tablet */
+    /* common style */
+
+
+    /* banner part */
+
+
+    /* habits part */
+
+
+    /* training part */
+
+
+    /* advertisement part */
+
+
+    /* calculator part */
+
+
+    /* team part */
+
+
+    /* footer part */
+
+}
