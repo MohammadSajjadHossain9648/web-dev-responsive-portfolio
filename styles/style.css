@@ -91,6 +91,10 @@ section{
 .banner .banner_header .banner_menubar li:hover{
     background-color: var(--secondary-color);
 }
+.banner .banner_header .dropdown .dropdown_btn{
+    display: none;
+}
+
 
 
 .banner .banner_container_items{
@@ -183,21 +187,30 @@ section{
     .banner .banner_header .banner_title{
         color: var(--secondary-color);
     }
-    .banner .banner_header .banner_menubar{
-        border: 1px solid black;
-        border-radius: 35px;
+    .banner .banner_header .dropdown .dropdown_btn{
+        display: inline;
+        font-size: 18px;
+        background-color: #121212;
+        border: none;
+    }
+    .banner .banner_header .dropdown .dropdown_btn i{
+        color: white;
+    }
+    .banner .banner_header .dropdown .banner_menubar{
         padding: 2px;
-        width: 400px;
-        display: flex;
-        justify-content: space-between;
+        width: 90px;
+        flex-direction: column;
+        border-radius: 0;
+        position: absolute;
+        /* display: none; */
     }
-    .banner .banner_header .banner_menubar li{
-        border-radius: 35px;
-        padding: 5px 15px;
-    }
-    .banner .banner_header .banner_menubar li:hover{
+    .dropdown:hover .banner_menubar{
+        display: block;
         background-color: var(--secondary-color);
+        right: 8px;
+        text-align: center;
     }
+
 
 
     .banner .banner_container_items{
