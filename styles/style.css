@@ -35,6 +35,9 @@ nav ul li a{
 section{
     margin: 80px 140px;
 }
+p, .description{
+    font-size: 14px;
+}
 .title{
     font-size: 48px;
 }
@@ -44,6 +47,7 @@ section{
 }
 .btn{
     width: 180px;
+    font-size: 18px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
@@ -114,6 +118,11 @@ section{
     font-family: 'Miama', sans-serif;
     font-weight: normal;
     font-size: 135px;
+}
+.banner .banner_container_items .banner_container1 .banner_description{
+    color: var(--shade-color);
+    font-size: 16px;
+    padding: 20px 0;
 }
 .banner .banner_container_items .banner_container1 .banner_btn1{
     background-color: var(--secondary-color);
@@ -440,6 +449,13 @@ section{
 @media screen and (max-width: 576px) {
     /* design for mobile */
     /* common style */
+    section{
+        padding: 0 10px;
+    }
+    section .title{
+        font-size: 32px;
+    }
+
 
     /* banner part */
 
