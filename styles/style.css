@@ -177,15 +177,11 @@ section{
 
 
 @media screen and (max-width: 576px) {
-
     .banner{
         padding: 40px 10px 0;
     }
     .banner .banner_header{
         padding: 0;
-    }
-    .banner .banner_header .banner_title{
-        color: var(--secondary-color);
     }
     .banner .banner_header .dropdown .dropdown_btn{
         display: inline;
@@ -212,21 +208,20 @@ section{
     }
 
 
-
     .banner .banner_container_items{
         padding: 0;
         display: flex;
         flex-direction: column;
     }
     .banner .banner_container_items .banner_container1{
-        width: 100%;
+        width: 90%;
     }
     .banner .banner_container_items .banner_container1 .banner_container_title{
         font-size: 40px;
-        width: 65%;
+        width: 60%;
     }
     .banner .banner_container_items .banner_container1 .banner_description{
-        width: 75%;
+        width: 70%;
     }
     .banner .banner_container_items .banner_container1 .banner_container_title #text_shape{
         font-size: 75px;
@@ -243,8 +238,8 @@ section{
         padding-left: 30px;
     }
     .banner .banner_container_items .banner_container2 .img_top_content{
-        top: 520px;
-        right: 95px;
+        top: 500px;
+        right: 170px;
     }
     .banner .banner_container_items .banner_container2 .img_bottom_content{
         top: 700px;
@@ -252,8 +247,42 @@ section{
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px){
 
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .banner{
+        padding: 40px 60px 0;
+    }
+    .banner .banner_header{
+        padding: 0;
+    }
+
+
+    .banner .banner_container_items{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner .banner_container_items .banner_container1{
+        width: 100%;
+    }
+    .banner .banner_container_items .banner_container1 .banner_container_title{
+        width: 65%;
+    }
+    .banner .banner_container_items .banner_container2{
+        width: 100%;
+    }
+    .banner .banner_container_items .banner_container2 img{
+        padding: 50px 100px;
+    }
+    .banner .banner_container_items .banner_container2 .img_top_content{
+        top: 670px;
+        left: 360px;
+    }
+    .banner .banner_container_items .banner_container2 .img_bottom_content{
+        top: 930px;
+        left: 162px;
+    }
 }
 
 
