@@ -455,6 +455,58 @@ section h1{
 
 
 /* training part */
+.training .training_container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 25% 40% 30%;
+}
+.training .training_container .training_box{
+    position: relative;
+    height: 150px;
+    border: 2px solid red;
+    /* overflow: hidden; */
+    /* display: inline; */
+}
+.training .training_container .training_box img{
+    height: 150px;
+    width: 100%;
+}
+.training .training_container .training_box .training_img_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.training .training_container .training_box .training_box_description{
+    position: absolute;
+    color: white;
+    top: 0;
+    width: 60%;
+    padding: 10px;
+}
+.training .training_container .training_box .description1{
+    color: black;
+}
+.training .training_container .training_box .overlay1{
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.training .training_container .training_box .overlay2{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.training .training_container .training_box .overlay3{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.training .training_container .training_box .overlay4{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.training .training_container .training_box .overlay5{
+    background-color: rgba(66, 255, 0, 0.3);
+}
+.training .training_container .training_box .overlay6{
+    background-color: rgba(0, 71, 255, 0.3);
+}
+
 
 @media screen and (max-width: 576px) {
 
