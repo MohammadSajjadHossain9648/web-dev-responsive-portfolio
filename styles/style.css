@@ -470,7 +470,7 @@ section h1{
     position: relative;
     height:150px;
     display: flex;
-
+    overflow: hidden;
 }
 .training .training_container .training_box .training_box_img{
     height: 150px;
@@ -484,7 +484,10 @@ section h1{
     height: 100%;
 }
 .align_left{
-    padding-top: 90px;
+    margin-top: 70px;
+}
+.align_right{
+    margin-left: 170px;
 }
 .training .training_container .training_box .training_box_description_container{
     position: absolute;
@@ -498,27 +501,39 @@ section h1{
 }
 .training .training_container .item1{
     grid-area: item1;
-    /* transform: scale(); */
+}
+.training .training_container .item1 img{
+    transform: scale(1.3, 1.2);
 }
 .training .training_container .item2{
     grid-area: item2;
-    /* transform: scale(); */
+}
+.training .training_container .item2 img{
+    transform: scale(1, 1.3);
 }
 .training .training_container .item3{
     grid-area: item3;
-    /* transform: scale(); */
+}
+.training .training_container .item3 img{
+    transform: scale(1.3, 1.05);
 }
 .training .training_container .item4{
     grid-area: item4;
-    /* transform: scale(); */
+}
+.training .training_container .item4 img{
+    transform: scale(1.3, 1.2);
 }
 .training .training_container .item5{
     grid-area: item5;
-    /* transform: scale(); */
+}
+.training .training_container .item5 img{
+    transform: scale(1.3, 1.2);
 }
 .training .training_container .item6{
     grid-area: item6;
-    /* transform: scale(); */
+}
+.training .training_container .item6 img{
+    transform: scale(1.1, 1.3);
 }
 .training .training_container .training_box .description1{
     color: black;
@@ -541,7 +556,6 @@ section h1{
 .training .training_container .training_box .overlay6{
     background-color: rgba(0, 71, 255, 0.3);
 }
-
 
 @media screen and (max-width: 576px) {
 
