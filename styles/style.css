@@ -483,10 +483,10 @@ section h1{
     width: 100%;
     height: 100%;
 }
-.align_left{
+.align_bottomleft{
     margin-top: 70px;
 }
-.align_right{
+.align_topright{
     margin-left: 170px;
 }
 .training .training_container .training_box .training_box_description_container{
@@ -571,7 +571,7 @@ section h1{
     .training .training_container .training_box .description1{
         color: white;
     }
-    .training .training_container .item4 .align_right{
+    .training .training_container .item4 .align_topright{
         margin-top: 70px;
         margin-left: 0;
     }
