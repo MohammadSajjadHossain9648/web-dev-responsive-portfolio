@@ -56,6 +56,14 @@ section h1{
     cursor: pointer;
 }
 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 
 
@@ -701,7 +709,22 @@ section h1{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .calculator .calculator_container1{
+        margin: 40px 140px;
+        padding: 0;
+        width: 60%;
+    }
+    .calculator .calculator_container2{
+        padding: 40px 10px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .calculator .calculator_container2 .calculator_box{
+        margin: 40px 140px;
+    }
+    .calculator .calculator_container2 .calculator_rightbox{
+        width: 70%;
+    }
 }
 
 
