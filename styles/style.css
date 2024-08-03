@@ -687,9 +687,19 @@ section h1{
 
 
 @media screen and (max-width: 576px) {
-
+    .calculator .calculator_container1{
+        margin: 10px;
+        padding: 0;
+    }
+    .calculator .calculator_container2{
+        padding: 40px 10px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .calculator .calculator_container2 .calculator_rightbox{
+        width: 80%;
+    }
 }
-
 @media screen and (min-width: 577px) and (max-width: 992px){
 
 }
