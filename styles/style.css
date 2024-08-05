@@ -804,7 +804,30 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .team .team_header{
+        padding: 0;
+    }
+    .team .team_container{
+        gap: 20px;
+    }
+    .team .team_container .team_box1 img{
+        transform: scale(1.52, 1);
+    }
+    .team .team_container .team_box2 img{
+        transform: scale(1.6, 1);
+    }
+    .team .team_container .team_box3 img{
+        transform: scale(1.35, 1);
+    }
+    .team .team_container .team_box4 img{
+        transform: scale(2.4, 1);
+    }
+    .team .team_container .team_box5 img{
+        transform: scale(1.38, 1);
+    }
+    .team .team_container .team_box6 img{
+        transform: scale(1.63, 1);
+    }
 }
 
 
