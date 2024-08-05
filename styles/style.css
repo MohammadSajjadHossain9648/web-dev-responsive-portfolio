@@ -74,6 +74,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 
+
 /* banner part */
 .banner{
     background-image: linear-gradient(to bottom, #121212 10%, #232323 45%, #1B1B1B 65%, #000000 89%);
@@ -191,12 +192,6 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content: space-evenly;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 576px) {
     .banner{
         padding: 40px 10px 0;
@@ -267,8 +262,6 @@ input[type="number"]::-webkit-inner-spin-button {
         left: 40px;
     }
 }
-
-
 
 @media screen and (min-width: 577px) and (max-width: 992px){
     .banner{
@@ -345,7 +338,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 @media screen and (max-width: 576px) {
-    .habits .habits_header{
+    .habits .habits_header, .team .team_header{
         padding: 0;
     }
     .habits .habits_container{
@@ -566,7 +559,6 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: rgba(0, 71, 255, 0.3);
 }
 
-
 @media screen and (max-width: 576px) {
     .training .training_container{
         grid-template-areas:
@@ -720,7 +712,7 @@ input[type="number"]::-webkit-inner-spin-button {
         gap: 60px;
     }
     .calculator .calculator_container2 .calculator_box{
-        margin: 40px 140px;
+        margin: 10px 140px;
     }
     .calculator .calculator_container2 .calculator_rightbox{
         width: 70%;
@@ -741,11 +733,55 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 /* team part */
+.team .team_container{
+    background-color: var(--primary-shade-color);
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.team .team_container .team_container_box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.team .team_container .team_container_box img{
+    height: 230px;
+    width: 100%;
+}
+.team .team_container .team_container_box .team_img_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team .team_container .team_container_box .team_box_intro{
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+}
+.team .team_container .team_container_box .team_box_intro p{
+    padding: 0;
+}
+.team .team_container .team_box1 img{
+    transform: scale(1, 1.05);
+}
+.team .team_container .team_box3 img{
+    transform: scale(1, 1.25);
+}
+.team .team_container .team_box4 img{
+    transform: scale(1.5, 1);
+}
+.team .team_container .team_box5 img{
+    transform: scale(1, 1.2);
+}
 
 @media screen and (max-width: 576px) {
 
 }
-
 @media screen and (min-width: 577px) and (max-width: 992px){
 
 }
