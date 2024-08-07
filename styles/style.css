@@ -460,6 +460,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 /* training part */
+.training .training_header{
+    width: 70%;
+}
 .training .training_container{
     margin-top: 40px;
     display: grid;
@@ -560,6 +563,12 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 576px) {
+    .training .training_header{
+        width: 100%;
+    }
+    .training .training_header h1{
+        width: 60%;
+    }
     .training .training_container{
         grid-template-areas:
         'item1 item1 item2 item2 item2'
@@ -593,6 +602,9 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
+    .training .training_header{
+        width: 100%;
+    }
     .training .training_container{
         grid-template-areas:
         'item1 item2 item2 item3 item3'
