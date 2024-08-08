@@ -849,6 +849,25 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 
+/* membership part */
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer part */
 @media screen and (max-width: 576px) {
 
