@@ -849,6 +849,69 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 /* membership part */
+.membership .membership_header{
+    width: 70%;
+}
+.membership .membership_body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+}
+.membership .membership_body .membership_container{
+    padding: 10px;
+    background-color: var(--secondary-shade-color);
+}
+.membership .membership_body .membership_container .membership_container_header{
+    text-align: center;
+}
+.membership .membership_body .membership_container .membership_container_header .membership_container_description{
+    color: var(--secondary-color);
+    border-bottom: 2px solid white;
+}
+.membership .membership_body .membership_container .membership_container_body .membership_popup_icon{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.membership .membership_popup{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.membership .membership_popup:target{
+    display: flex;
+}
+.membership .membership_popup .membership_popup_container{
+    position: relative;
+}
+.membership .membership_popup .membership_popup_container .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.membership .membership_popup_container h1{
+    padding-bottom: 60px;
+    color: var(--secondary-color);
+}
+.membership .membership_popup_container th, td{
+    padding: 20px;
+}
+.membership .membership_popup_container th{
+    border-bottom: 5px solid var(--secondary-color);
+}
+
 @media screen and (max-width: 576px) {
 
 }
