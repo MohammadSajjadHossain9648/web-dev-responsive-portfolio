@@ -30,7 +30,7 @@
 nav ul li{
     list-style-type: none;
 }
-nav ul li a{
+a{
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -377,7 +377,6 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* advertisement part */
 .advertisement{
-    border: 1px solid red;
     border-radius: 20px;
     padding: 30px;
     background-color: var(--secondary-shade-color);
