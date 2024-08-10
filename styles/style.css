@@ -926,6 +926,9 @@ input[type="number"]::-webkit-inner-spin-button {
     .membership .membership_body .membership_container{
         padding: 10px 20px;
     }
+    .membership .membership_popup .membership_popup_container{
+        width: 95%;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
