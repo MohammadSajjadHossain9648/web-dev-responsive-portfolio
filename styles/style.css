@@ -204,6 +204,7 @@ input[type="number"]::-webkit-inner-spin-button {
         font-size: 18px;
         background-color: #121212;
         border: none;
+        cursor: pointer;
     }
     .banner .banner_header .dropdown .dropdown_btn i{
         color: white;
@@ -796,7 +797,7 @@ input[type="number"]::-webkit-inner-spin-button {
         gap: 20px;
     }
     .team .team_container .team_container_box img{
-        height: 250px;
+        height: 300px;
     }
     .team .team_container .team_box1, .team_box4{
         display: none;
@@ -848,6 +849,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 
+
+
+
+
 /* membership part */
 .membership .membership_header{
     width: 70%;
@@ -863,6 +868,8 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: var(--secondary-shade-color);
 }
 .membership .membership_body .membership_container .membership_container_header{
+    color: var(--secondary-color);
+    padding-top: 20px;
     text-align: center;
 }
 .membership .membership_body .membership_container .membership_container_header .membership_container_description{
@@ -913,7 +920,12 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 576px) {
-
+    .membership .membership_body{
+        grid-template-columns: auto;
+    }
+    .membership .membership_body .membership_container{
+        padding: 10px 20px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
