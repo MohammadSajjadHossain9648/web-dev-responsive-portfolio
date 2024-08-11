@@ -75,6 +75,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
 
+
 /* banner part */
 .banner{
     background-image: linear-gradient(to bottom, #121212 10%, #232323 45%, #1B1B1B 65%, #000000 89%);
@@ -983,7 +984,6 @@ details[open] summary i{
 @media screen and (max-width: 576px) {
 
 }
-
 @media screen and (min-width: 577px) and (max-width: 992px){
 
 }
@@ -1002,10 +1002,72 @@ details[open] summary i{
 
 
 /* footer part */
-@media screen and (max-width: 576px) {
-
+.footer{
+    background-color: var(--primary-shade-color);
+    padding: 40px 140px 0;
+}
+.footer .footer_container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer_container .footer_container_items{
+    margin-bottom: 40px;
+    display: flex;
+}
+.footer .footer_container .footer_container_items .footer_box_container{
+    width: 50%;
+    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer_container .footer_container_items .footer_box_header{
+    width: 40%;
+}
+.footer .footer_container .footer_container_items .footer_box_header .footer_box_title{
+    font-size: 75px;
+    color: var(--secondary-color);
+}
+.footer .footer_container .footer_container_items .footer_box h1{
+    margin-bottom: 30px;
+}
+.footer .footer_container .footer_container_items .footer_box li{
+    margin: 15px 0;
+}
+.footer .footer_container .footer_container_items .footer_box li a{
+    color: var(--text-shade-color);
+    font-size: 24px;
+}
+.footer hr{
+    border-color: var(--primary-shade-color);
+}
+.footer .footer_container .footer_copyright{
+    color: var(--text-shade-color);
+    font-size: 20px;
+    padding-top: 15px;
 }
 
+@media screen and (max-width: 576px) {
+    .footer{
+        padding: 30px 10px;
+    }
+    .footer .footer_container{
+        justify-content: flex-start;
+    }
+    .footer .footer_container .footer_container_items{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer_container .footer_container_items .footer_box_header{
+        width: 85%;
+    }
+    .footer .footer_container .footer_container_items .footer_box_container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+}
 @media screen and (min-width: 577px) and (max-width: 992px){
 
 }
