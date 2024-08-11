@@ -1069,7 +1069,21 @@ details[open] summary i{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .footer{
+        padding: 30px;
+    }
+    .footer .footer_container .footer_container_items{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer_container .footer_container_items .footer_box_header{
+        width: 60%;
+    }
+    .footer .footer_container .footer_container_items .footer_box_container{
+        display: flex;
+        margin: 0;
+        width: 65%;
+    }
 }
 
 
